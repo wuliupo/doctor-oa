@@ -1,0 +1,39 @@
+body{font-family:"微软雅黑"}
+/**
+ * Oa公用样式
+ */
+.oa-loading{height:20px;line-height:20px;padding-left:22px;margin:10px;background:url(../Images/loading.gif) left center no-repeat;}
+
+
+#north{background:#428bca;}
+.oa-logo{height:63px;font-size:36px;float:left;color:#fff;line-height:72px;padding:10px;}
+.oa-menu{float:left;}
+.oa-menu a{width:80px;height:20px;overflow:hidden;float:left;color:#fff;padding-top:60px;line-height:20px;text-align:center;font-size:16px;text-decoration:none;}
+.oa-menu a.oa-menu-system{background:url(../Images/system.png) center top no-repeat;}
+.oa-menu a.oa-menu-system.active{background:url(../Images/system.png) center top no-repeat #327FC5;border-bottom:3px solid #95B8E7;}
+.oa-menu a.oa-menu-app{background:url(../Images/app.png) center top no-repeat;}
+.oa-menu a.oa-menu-app.active{background:url(../Images/app.png) center top no-repeat #327FC5;border-bottom:3px solid #95B8E7;}
+.oa-menu a.oa-menu-user{background:url(../Images/user.png) center top no-repeat;}
+.oa-menu a.oa-menu-user.active{background:url(../Images/user.png) center top no-repeat #327FC5;border-bottom:3px solid #95B8E7;}
+.oa-user{width:83;height:83px;float:right;position:relative;overflow: hidden;}
+.oa-user-select{width:100%;height:25px;position:absolute;left:0px;bottom:0px;}
+.oa-user-select a{text-decoration:none;}
+.oa-user-select a.oa-user-select-title{font-size:13px;color:#666;text-align:center;width:100%;height:25px;display:block;line-height:25px;background:#fff;opacity:0.8;}
+.oa-user-select p{width:84px;background:#fff;display:none;margin:0px;padding:0px;position:fixed;right:0px;top:84px;z-index:9999999;border-bottom:1px dashed #ccc;}
+.oa-user-select p a{width:69px;height:20px;border-top:1px dashed #ccc;line-height:20px;clear:both;display:block;padding-left:15px;color:#000;}
+.oa-user-select p a:hover{color:red;}
+
+
+/**
+ * EasyUI样式改造
+ * @author 杨圆建 624508914@qq.com
+ * 2015年3月10日11:07:58
+ */
+#left .accordion-header-selected{background:#E4F1FC;}
+
+#left .tree-node{width:130px;height:30px;line-height:30px;margin:5px auto 0px auto;border:1px dashed #fff;}
+#left .tree-node-hover{background:#E4F1FC;border:1px dashed #428bca;}
+#left .tree-node-selected{background:#E4F1FC;border:1px dashed #428bca;}
+#left .tree-node .tree-indent{display:none;}
+#left .tree-title{height:30px;line-height:30px;}
+#left .tree-icon{height:30px;line-height:30px;padding:0px 5px;}
