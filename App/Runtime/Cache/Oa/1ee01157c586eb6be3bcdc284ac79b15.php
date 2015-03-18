@@ -19,7 +19,7 @@ $(document).ready(function(){
 });
 </script>
 <style type="text/css">
-body{background:url(/Public/Images/bg.jpg);font-family:"微软雅黑"}
+body{background:url(/Public/Images/bg.jpg) center top;font-family:"微软雅黑"}
 form{width:280px;height:120px;margin:30px auto 0;}
 form div label{float:left;display:block;width:65px;font-size:16px;padding-top:6px;}
 form div{margin:8px auto;}

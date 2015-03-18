@@ -22,8 +22,8 @@ class AuthController extends Controller{
 
 		//检查普通用户权限
 		$AuthModel = new Auth();
-		if(!$AuthModel->check(CONTROLLER_NAME.'/'.ACTION_NAME,$sess_user['info']['id'])){
-			echo "没有权限";
+		if(!$AuthModel->check(CONTROLLER_NAME.'/'.ACTION_NAME,$sess_User['info']['uid'])){
+			echo "<div style='padding:10px;'>没有权限</div>";
 			exit;
 		}
 	}

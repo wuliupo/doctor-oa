@@ -8,6 +8,7 @@ class IndexController extends IsLoginController {
         $this->display();
     }
     public function main(){
+    	$this->sess_User = session('user');
     	$this->display();
     }
     public function getLeftMenu(){

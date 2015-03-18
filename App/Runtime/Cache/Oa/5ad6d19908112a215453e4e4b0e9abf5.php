@@ -13,6 +13,10 @@
 <script src="/Public/Js/jQuery.cookie.js"></script>
 <script src="/Public/Js/jQuery.oa.js"></script>
 <link rel="stylesheet" href="/Public/Css/main.css">
+<!--山寨国产HTML5版本Uploadify上传-->
+<link rel="stylesheet" type="text/css" href="/Public/Framework/Uploadify/Huploadify.css"/>
+<script type="text/javascript" src="/Public/Framework/Uploadify/jquery.Huploadify.js"></script>
+<!--山寨国产HTML5版本Uploadify上传-->
 </head>
 
 <body class="easyui-layout">
@@ -47,7 +51,7 @@
         </div>
     </div>
     <script type="text/javascript">
-        setInterval('$.Oa.sess_verify(\"<?php echo U("Login/session_timeout");?>\",\"<?php echo U("Login/logout");?>\")',3000);
+        setInterval('$.Oa.sess_verify(\"<?php echo U("Login/session_timeout");?>\",\"<?php echo U("Login/logout");?>\")',10000);
     </script>
     <script src="/Public/Js/main.js"></script>
 </body>

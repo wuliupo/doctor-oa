@@ -83,6 +83,11 @@
 						});
 					}
 				}
+			},
+			//刷新当前已选择的Tabs
+			'refresh' : function(){
+				var tab = $("#oa-tabs").tabs("getSelected");
+				tab.panel("refresh",tab[0]['baseUrl']);
 			}
 		},
 	});

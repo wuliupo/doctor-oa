@@ -57,10 +57,13 @@ $(function(){
 	                if(m.children){
 	                    content = "<ul class='easyui-tree' data-options='data:"+ JSON.stringify(m.children) +",animate:true,lines:false,onClick:function(node){$.Oa.openUrl(node)}'></ul>";
 	                }
-
 	                $("#left").accordion("add", {title: m.title, content: content});
 	            });
-	        }
+	        },
+			error: function(){
+				$.messager.progress({text:"获取菜单失败，请联系管理员！3秒后关闭..."});
+            	setTimeout('$.messager.progress("close")',3000);
+			}
 	    });
 
 	});
