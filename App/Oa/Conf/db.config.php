@@ -4,11 +4,11 @@ return array(
 
 	'DB_PORT' => '3306',/*端口*/
 
-	'DB_PWD' => 'hosp0796zcom',/*密码*/
+	'DB_PWD' => '',/*密码*/
 
-	'DB_USER' => 'hosp0796zcom',/*用户名*/
+	'DB_USER' => 'root',/*用户名*/
 
-	'DB_NAME' => 'hosp0796zcom',/*数据库名*/
+	'DB_NAME' => 'doctor-oa',/*数据库名*/
 
 	'DB_HOST' => 'localhost',/*服务器地址*/
 

@@ -24,10 +24,11 @@
 *	商业授权每个公司只需要购买一次，而不限制产品域名。适用于 医疗OA管理系统 现有版本和所有后续版本，永久有效。
 *	您享有反映和提出意见的优先权，相关意见将被作为首要考虑。
 
-###	费用
+### TODO
+ - /index.php/Oa/Index/getLeftMenu/id/2
+ - /index.php?m=Oa&c=Index&a=getLeftMenu&id=2
+ - 登录 admin / 123456
+ - [ThinkPHP](https://github.com/top-think/thinkphp) 3.2.3 -> ./ThinkPHP
+ - [EasyUI](http://www.jeasyui.com/) 1.4.2 -> ./Public/Framework/Easyui
+ - [Huploadify](http://www.cnblogs.com/lvdabao/p/3452858.html) -> ./Public/Framework/Uploadify (jQuery文件上传插件，HTML5版[uploadify](http://www.uploadify.com/)改进版)
 
-医疗OA管理系统 商业授权费用：￥999
-
-###	联系
-
-<624508914@qq.com>

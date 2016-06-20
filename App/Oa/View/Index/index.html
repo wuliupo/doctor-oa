@@ -54,7 +54,7 @@
     <!--有时会需要两个dialog框-->
     <div id="oa-dialog-2"></div>
     <script type="text/javascript">
-        setInterval('$.Oa.sess_verify(\"<{:U("Login/session_timeout")}>\",\"<{:U("Login/logout")}>\")',10000);
+        setInterval('$.Oa.sess_verify("<{:U("Login/session_timeout")}>","<{:U("Login/logout")}>")',100000);
     </script>
     <script src="__PUBLIC__/Js/main.js"></script>
 </body>

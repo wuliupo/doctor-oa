@@ -22,15 +22,13 @@ class IndexController extends IsLoginController {
 		$AuthRules = implode(',', $AuthRules);
 		$where = array(
 			'rule_id'=>I('id','','int'),
-			'display'=>1,
-			'id'=>array('in',$AuthRules)
+			'display'=>1
 		);
 		$table_AuthRule = M("AuthRule")->where($where)->order("sort asc")->field("id,title")->select();
 		foreach($table_AuthRule as $k => $v){
 			$where = array(
 				'rule_id'=>$v['id'],
-				'display'=>1,
-				'id'=>array('in',$AuthRules)
+				'display'=>1
 			);
 			$table_AuthRule_son = M("AuthRule")->where($where)->order("sort asc")->field("id,title as text,cls,name as url")->select();
 			foreach($table_AuthRule_son as $k2 => $v2){
